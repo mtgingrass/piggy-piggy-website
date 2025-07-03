@@ -386,11 +386,11 @@ body {
 .privacy-header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 40px 0 60px;
+    padding: 50px 0 80px;
 }
 
 .privacy-nav {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .back-link {
@@ -399,140 +399,240 @@ body {
     font-weight: 500;
     opacity: 0.9;
     transition: opacity 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .back-link:hover {
     opacity: 1;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .privacy-header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
     letter-spacing: -0.02em;
 }
 
 .privacy-subtitle {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     opacity: 0.9;
     font-weight: 300;
 }
 
 .privacy-content {
-    padding: 60px 0;
-    background: white;
+    padding: 80px 0;
+    background: #fafbfc;
 }
 
 .privacy-document {
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
-    line-height: 1.7;
+    line-height: 1.8;
 }
 
 .effective-date {
-    background: #f7fafc;
-    padding: 1rem 1.5rem;
-    border-radius: 8px;
-    margin-bottom: 2rem;
-    border-left: 4px solid #667eea;
-    font-size: 0.95rem;
+    background: white;
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    margin-bottom: 4rem;
+    border-left: 6px solid #667eea;
+    font-size: 1rem;
     color: #4a5568;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .privacy-intro {
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     color: #4a5568;
-    margin-bottom: 3rem;
-    padding: 1.5rem;
-    background: #f8fafc;
-    border-radius: 8px;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    border: 1px solid #e2e8f0;
 }
 
 .privacy-section {
+    background: white;
     margin-bottom: 3rem;
+    padding: 3rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #e2e8f0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.privacy-section:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .privacy-section h2 {
-    font-size: 1.5rem;
-    font-weight: 600;
+    font-size: 1.75rem;
+    font-weight: 700;
     color: #2d3748;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f7fafc;
 }
 
 .privacy-section p {
     color: #4a5568;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
 }
 
 .privacy-section ul {
     list-style: none;
     padding-left: 0;
+    margin-top: 2rem;
 }
 
 .privacy-section li {
     color: #4a5568;
-    margin-bottom: 0.75rem;
-    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+    padding: 1rem 1.5rem 1rem 3rem;
     position: relative;
+    background: #f8fafc;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    border-left: 3px solid #e2e8f0;
+    transition: border-color 0.2s ease;
+}
+
+.privacy-section li:hover {
+    border-left-color: #667eea;
 }
 
 .privacy-section li:before {
     content: "✓";
     position: absolute;
-    left: 0;
+    left: 1rem;
+    top: 1rem;
     color: #48bb78;
     font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.privacy-section li strong {
+    color: #2d3748;
+    font-weight: 600;
 }
 
 .contact-info {
-    background: #f7fafc;
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-top: 1rem;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 2.5rem;
+    border-radius: 12px;
+    margin-top: 2rem;
+    border: 1px solid #e2e8f0;
+}
+
+.contact-info p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .contact-info a {
     color: #667eea;
     text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
 }
 
 .contact-info a:hover {
+    color: #5a6acf;
     text-decoration: underline;
 }
 
 .privacy-footer {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 2rem;
-    border-radius: 12px;
+    padding: 3rem;
+    border-radius: 16px;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 5rem;
+    box-shadow: 0 8px 30px rgba(102, 126, 234, 0.3);
 }
 
 .privacy-footer p {
-    font-size: 1.125rem;
-    font-weight: 500;
+    font-size: 1.25rem;
+    font-weight: 600;
     margin: 0;
+    line-height: 1.6;
 }
 
 /* Privacy page responsive */
 @media (max-width: 768px) {
     .privacy-header {
-        padding: 30px 0 40px;
+        padding: 40px 0 50px;
     }
     
     .privacy-header h1 {
-        font-size: 2rem;
+        font-size: 2.25rem;
     }
     
     .privacy-content {
-        padding: 40px 0;
+        padding: 50px 0;
+    }
+    
+    .privacy-section {
+        padding: 2rem;
+        margin-bottom: 2rem;
     }
     
     .privacy-section h2 {
-        font-size: 1.25rem;
+        font-size: 1.5rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+    
+    .privacy-intro {
+        padding: 2rem;
+        margin-bottom: 3rem;
+    }
+    
+    .effective-date {
+        padding: 1.5rem;
+        margin-bottom: 2.5rem;
+    }
+    
+    .privacy-footer {
+        padding: 2rem;
+        margin-top: 3rem;
+    }
+    
+    .contact-info {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .privacy-header h1 {
+        font-size: 1.75rem;
+    }
+    
+    .privacy-section {
+        padding: 1.5rem;
+    }
+    
+    .privacy-section li {
+        padding: 0.75rem 1rem 0.75rem 2.5rem;
+        font-size: 1rem;
+    }
+    
+    .privacy-section li:before {
+        left: 0.75rem;
+        top: 0.75rem;
     }
 }
