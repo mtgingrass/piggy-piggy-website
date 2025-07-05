@@ -1,10 +1,10 @@
-# IWNDWYToday Website
+# Piggy-Piggy Website
 
-A static website showcasing the IWNDWYToday iOS app - a minimalist day counter for tracking personal goals and breaking bad habits.
+A static website showcasing the Piggy-Piggy iOS app - a financial tracking app designed to help you manage your savings goals and track your spending habits.
 
 ## About
 
-This website showcases the IWNDWYToday app, designed to help users track their progress in stopping bad habits with a clean, distraction-free interface.
+This website showcases the Piggy-Piggy app, designed to help parents and individuals manage money effectively with a clean, easy-to-use interface.
 
 ## Features
 
@@ -29,11 +29,11 @@ Simply open `index.html` in a web browser to view the site locally.
 
 ## Screenshot Gallery
 
-The site includes all 8 app screenshots from the `images/iOS Phones 6.9/` directory, displayed in a smooth horizontal scrolling gallery that mimics the iOS App Store experience.
+The site includes 3 app screenshots from the `images/iOS Phones 6.9/` directory, displayed in a smooth horizontal scrolling gallery that mimics the iOS App Store experience.
 
 ## App Information
 
-- **Name**: IWNDWYToday (I Will Not Destruct With You Today)
+- **Name**: Piggy-Piggy
 - **Platform**: iOS
 - **Developer**: Mark Gingrass
-- **App Store**: https://apps.apple.com/us/app/iwndwytoday/id6747836739
+- **App Store**: Coming Soon
